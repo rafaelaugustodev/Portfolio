@@ -145,9 +145,21 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
-  { id: 1, img: `${bP}/git.svg` },
-  { id: 2, img: `${bP}/twit.svg` },
-  { id: 3, img: `${bP}/link.svg` },
+  {
+    id: 1,
+    img: `${bP}/git.svg`,
+    link: "https://github.com/Rafaasj07",
+  },
+  {
+    id: 2,
+    img: `${bP}/whatsapp.svg`,
+    link: "https://wa.me/5562985191711",
+  },
+  {
+    id: 3,
+    img: `${bP}/link.svg`,
+    link: "https://www.linkedin.com/in/rafaelasjdev",
+  },
 ];
 
 export const trajectory = [

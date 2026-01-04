@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa"
 
 const Hero = () => {
   return (
-    <div className="relative pb-20 pt-36">
+    <div className="relative pb-20 pt-28 md:pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -34,18 +34,18 @@ const Hero = () => {
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black-100 mask-[radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-5xl lg:max-w-[80vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-sm md:text-base text-center text-blue-100 max-w-96">
+      <div className="flex justify-center relative my-10 md:my-20 z-10">
+        <div className="max-w-[89vw] md:max-w-5xl lg:max-w-[60vw] flex flex-col items-center justify-center px-4">
+          <h2 className="uppercase tracking-widest text-[10px] md:text-xs text-center text-blue-100 max-w-80 mb-2">
             Página Web Dinâmica com Next.js
           </h2>
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[32px] md:text-5xl lg:text-6xl leading-tight"
             words="Transformando conceitos em soluções digitais perfeitas"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-6 mt-4 text-sm md:text-lg lg:text-xl max-w-md md:max-w-2xl">
             Olá, eu sou o Rafael, um desenvolvedor que foca na experiência do usuário.
           </p>
 

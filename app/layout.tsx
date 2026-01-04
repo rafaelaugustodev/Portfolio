@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Portfólio Rafael",
   description: "Portfólio profissional de um desenvolvedor de software",
+  icons: {
+    icon: "/pdf.svg", 
+    shortcut: "/pdf.svg",
+    apple: "/pdf.svg",
+  },
 };
 
 export default function RootLayout({

@@ -10,7 +10,6 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow, FaRegFilePdf } from "react-icons/fa";
 
-// Container principal que organiza os cards em um layout de grid responsivo
 export const BentoGrid = ({
   className,
   children,
@@ -30,7 +29,6 @@ export const BentoGrid = ({
   );
 };
 
-/** Componente que renderiza cada card individual, tratando conteúdos específicos por ID */
 export const BentoGridItem = ({
   className,
   title,
@@ -52,7 +50,6 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
 
-  // Copia o endereço de e-mail para a área de transferência do usuário
   const handleCopy = () => {
     navigator.clipboard.writeText("rafael.silva.santos.dev@gmail.com");
     setCopied(true);
@@ -100,7 +97,10 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-white-200 z-10">
+          <div className={cn(
+            "font-sans font-extralight md:text-xs lg:text-base text-white-200 z-10",
+            id === 5 ? "md:max-w-full" : "md:max-w-32"
+          )}>
             {description}
           </div>
           <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>
@@ -146,7 +146,7 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
-          
+
           {id === 5 && (
             <div className="mt-5 relative">
               <a
