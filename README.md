@@ -39,7 +39,7 @@ Para clonar e executar este projeto em sua máquina, você precisará do [Node.j
 1. **Clone o repositório:**
 ```bash
 https://github.com/rafaelaugustodev/portfolio.git
-cd Portfolio
+cd portfolio
 
 ```
 
