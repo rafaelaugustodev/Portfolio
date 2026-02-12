@@ -51,7 +51,7 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("rafael.silva.santos.dev@gmail.com");
+    navigator.clipboard.writeText("rafael.s.januario@gmail.com");
     setCopied(true);
   };
 
@@ -111,7 +111,7 @@ export const BentoGridItem = ({
           {id === 1 && (
             <div className="flex mt-10 justify-center">
               <a
-                href="https://drive.google.com/file/d/1AM3kHfvH-H36bnYdBu-a-lx7Xs1pOhn4/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1J-7Cg5e17vm240a1BKjIVS90cn491uVY/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

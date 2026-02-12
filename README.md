@@ -2,7 +2,7 @@
 
 Este é um portfólio de alto desempenho desenvolvido com as tecnologias mais recentes do ecossistema Web. O projeto apresenta uma interface dinâmica, interativa e totalmente responsiva, utilizando elementos 3D e animações avançadas.
 
-🔗 **Link para o Deploy:** [https://rafaasj07.github.io/Portfolio/](https://rafaasj07.github.io/Portfolio/)
+🔗 **Link para o Deploy:** [http://rafaelaugustodev.github.io/portfolio/](http://rafaelaugustodev.github.io/portfolio/)
 
 ---
 
@@ -38,8 +38,8 @@ Para clonar e executar este projeto em sua máquina, você precisará do [Node.j
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/Rafaasj07/Portfolio.git
-cd Portfolio
+https://github.com/rafaelaugustodev/portfolio.git
+cd portfolio
 
 ```
 
