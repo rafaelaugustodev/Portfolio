@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const prefixPath = (path: string) => {
   const isProd = process.env.NODE_ENV === 'production';
-  const basePath = isProd ? '/Portfolio' : '';
+  const basePath = isProd ? '/portfolio' : '';
   
   return path.startsWith('/') ? `${basePath}${path}` : path;
 };
